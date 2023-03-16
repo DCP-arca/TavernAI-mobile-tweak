@@ -64,7 +64,7 @@ $(document).ready(function(){
     var this_chid;
     var backgrounds = [];
     var default_avatar = 'img/fluffy.png';
-    var is_colab = false;
+    var is_colab = true;
     var is_checked_colab = false;
     var is_mes_reload_avatar = false;
     var is_nav_toggle = false;
