@@ -1,3 +1,15 @@
+
+
+original : Tavern AI
+https://github.com/TavernAI/TavernAI
+
+fork d1b1e249ff9f1a1c0736d0307fbdba7538e6880e
+
+
+=================
+
+
+
 ### TavernAI is a adventure atmospheric chat (KoboldAI, NovelAI, Pygmalion, OpenAI)
 Examples of interface and output:
 <br><img src="readme/1.png" height="200" /><img src="readme/4.png" height="200" /><img src="readme/5.png" height="200" />
