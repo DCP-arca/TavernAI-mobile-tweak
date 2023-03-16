@@ -1493,15 +1493,15 @@ $(document).ready(function(){
         printMessages();
         select_selected_character(this_chid);
     }
-    $("#send_textarea").keypress(function (e) {
-        if(e.which === 13 && !e.shiftKey && is_send_press == false) {
-            hideSwipeButtons();
-            is_send_press = true;
-            e.preventDefault();
-            Generate();
+    // $("#send_textarea").keypress(function (e) {
+        // if(e.which === 13 && !e.shiftKey && is_send_press == false) {
+            // hideSwipeButtons();
+            // is_send_press = true;
+            // e.preventDefault();
+            // Generate();
             //$(this).closest("form").submit();
-        }
-    });
+        // }
+    // });
 
     //menu buttons
     
