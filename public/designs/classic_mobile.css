@@ -154,7 +154,7 @@ code {
     display: grid;
     grid-template-rows: 40px auto 145px;
     background: #191b3133;
-    height: 100vh;
+    height: 92vh;
     overflow: auto;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -211,6 +211,7 @@ code {
     overflow: hidden;
     overflow-y: scroll;
     background: #191b3100;
+    margin-top: 5px;
 }
 
 
@@ -363,7 +364,7 @@ hr {
     color: rgb(229, 224, 216);
     font-size: 18px;
     /* background: blue; */
-    margin-bottom: 26px;
+    margin-bottom: 12px;
     position: relative;
     overflow: hidden;
     height: auto;
@@ -661,6 +662,7 @@ input[type=submit], input[type=button] {
 }
 /*Left background menu*/
 #bg_menu {
+    visibility: hidden;
     margin-top: 5px;
     margin-left: 2px;
     cursor:pointer;
@@ -937,7 +939,7 @@ input[type=submit], input[type=button] {
 /*Popups*/
 .popup_large {
     display: none;
-    max-width:800px;
+    max-width:600px;
     height: calc(100vh - 120px);
     position: absolute;
     z-index: 2065;
@@ -1198,6 +1200,7 @@ select {
     height: 126px;
 }
 #rm_api_block {
+    zoom:40%;
     display: none;
     padding-bottom: 5px;
 }
@@ -1209,6 +1212,7 @@ select {
     height: calc(83vh - 65px); /* set the height to the remaining space */
     overflow-y: scroll; /* make the content scrollable */
     scrollbar-width: thin;
+    zoom:50%;
 }
 
 #master_settings_popup {
@@ -1729,8 +1733,8 @@ label.checkbox :checked + span:after {
 /* Right nav */
 
 .nav {
-    width: 450px;
-    min-width: 450px;
+    width: 350px;
+    min-width: 350px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -1882,11 +1886,10 @@ label.checkbox :checked + span:after {
 
 #chara_cloud{
     display: none;
-    width: calc(100vw - 180px);
     height: 100vh;
     overflow: hidden;
     overflow-y: scroll;
-    margin-left: 130px;/*170px;*/
+    margin-left: 20px;/*170px;*/
     scrollbar-width: none; /* hide scrollbar in Firefox */
     -ms-overflow-style: none; /* hide scrollbar in IE 10+ */
     
@@ -1987,7 +1990,7 @@ label.checkbox :checked + span:after {
 }
 
 #characloud_characters {
-    
+    zoom: 40%;
     margin-top: 20px;
 }
 
