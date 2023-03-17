@@ -3579,20 +3579,20 @@ $(document).ready(function(){
     }
     //********************
     //***Swipes***
-    $(document).keydown(function(e) {
-        if (e.keyCode == 37) {
-            // Left arrow key pressed
-            if(JSON.parse($('#chat').children('.mes').last().attr('is_user')) === false && $('#chat').children('.mes').last().children('.swipe_left').css('display') !== 'none'){
-                $('#chat').children('.mes').last().children('.swipe_left').click();
-            }
-        } else if (e.keyCode == 39) {
-            // Right arrow key pressed
-            if(JSON.parse($('#chat').children('.mes').last().attr('is_user')) === false && $('#chat').children('.mes').last().children('.swipe_right').css('display') !== 'none'){
-                $('#chat').children('.mes').last().children('.swipe_right').click();
+    // $(document).keydown(function(e) {
+    //     if (e.keyCode == 37) {
+    //         // Left arrow key pressed
+    //         if(JSON.parse($('#chat').children('.mes').last().attr('is_user')) === false && $('#chat').children('.mes').last().children('.swipe_left').css('display') !== 'none'){
+    //             $('#chat').children('.mes').last().children('.swipe_left').click();
+    //         }
+    //     } else if (e.keyCode == 39) {
+    //         // Right arrow key pressed
+    //         if(JSON.parse($('#chat').children('.mes').last().attr('is_user')) === false && $('#chat').children('.mes').last().children('.swipe_right').css('display') !== 'none'){
+    //             $('#chat').children('.mes').last().children('.swipe_right').click();
                 
-            }
-        }
-    });
+    //         }
+    //     }
+    // });
     $(document).on('click', '.swipe_right', function(){
         const swipe_duration = 120;
         const swipe_range = '700px';
